@@ -6,7 +6,7 @@
  * @returns {Array} - The sorted array.
  */
 
-const insertionsort = (arr) => {
+const insertionSort = (arr) => {
     let arrayLength = arr.length;
 
     for (let i = 1; i < arrayLength; i++) { // Start from the second element
@@ -25,6 +25,3 @@ const insertionsort = (arr) => {
 
     return arr; // Return the sorted array
 }
-
-// Test
-console.log(insertionSort([64, 25, 12, 22, 11])); // [11, 12, 22, 25, 64]

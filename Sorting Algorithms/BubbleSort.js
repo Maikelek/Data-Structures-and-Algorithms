@@ -6,7 +6,7 @@
  * @returns {Array} - The sorted array.
  */
 
-const bubblesort = (arr) => {
+const bubbleSort = (arr) => {
     let temp;
     let sorting = true;
     
@@ -27,4 +27,3 @@ const bubblesort = (arr) => {
     
     return arr;  // Return the sorted array
 }
-

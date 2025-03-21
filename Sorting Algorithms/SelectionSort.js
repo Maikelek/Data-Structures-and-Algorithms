@@ -7,7 +7,7 @@
  * @returns {Array} - The sorted array.
  */
 
-const selectionsort = (arr) => {
+const selectionSort = (arr) => {
     const arrLength = arr.length;
     
     for (let i = 0; i < arrLength - 1; i++) { // Loop through the array
